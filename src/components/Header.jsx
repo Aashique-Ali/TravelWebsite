@@ -15,7 +15,7 @@ const Header = () => {
           />
           <div
             className={`bg-slate-600 h-[100vh] flex justify-center items-center text-xl ${
-              open ? "block" : "hidden"
+              open ? "block" : "hidden w-[0px]"
             } sm:bg-transparent sm:block `}
           >
             <ul
